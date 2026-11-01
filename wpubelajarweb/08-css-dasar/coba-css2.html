@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba CSS - Selector & Property</title>
+    <style>
+        h1{
+            font-size:120px;
+            font-family:Arial, Helvetica, sans-serif;
+            color:chocolate;
+            text-align: center;
+        }
+        p{
+            font-size: 30px;
+            color: rgb(41, 167, 52);
+            text-align: justify;
+        }
+        .p2{
+            color: rgb(23, 26, 158);
+        }
+
+        #judul 
+        {
+           text-transform: uppercase;
+        }
+        #garis-bawah{
+            text-decoration: underline;
+        }
+        .cetak-miring{
+            font-style: italic;
+        }
+        </style>
+</head>
+<body>
+    <h1 id="judul" class="p2 cetak-miring">Hello World</h1>
+    <p id="garis-bawah" class="cetak-miring">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi.</p>
+   
+    <p class="p2">lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi.</p>
+</body>
+</html>
