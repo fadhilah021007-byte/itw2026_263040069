@@ -1,0 +1,11 @@
+ h1{
+            font-size:120px;
+            font-family:Arial, Helvetica, sans-serif;
+            color:chocolate;
+            text-align: center;
+        }
+        p{
+            font-size: 30px;
+            color: rgb(41, 167, 52);
+            text-align: justify;
+        }
