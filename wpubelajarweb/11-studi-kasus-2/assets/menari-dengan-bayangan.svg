@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Menari dengan Bayangan — Hindia</title>
+  <desc id="desc">Sosok abstrak menari di ruang biru gelap, diiringi bayangan panjang dan lingkaran cahaya.</desc>
+  <defs>
+    <radialGradient id="glow" cx=".49" cy=".45" r=".7">
+      <stop stop-color="#6c668b"/>
+      <stop offset=".55" stop-color="#343654"/>
+      <stop offset="1" stop-color="#171c32"/>
+    </radialGradient>
+    <linearGradient id="light" x2="1" y2="1">
+      <stop stop-color="#f1c78d"/>
+      <stop offset="1" stop-color="#bc7f82"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="40"/></filter>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#glow)"/>
+  <circle cx="560" cy="480" r="230" fill="#d9a8a2" opacity=".17" filter="url(#blur)"/>
+  <circle cx="560" cy="480" r="198" fill="none" stroke="#e8c2a2" stroke-width="2" opacity=".55"/>
+  <circle cx="560" cy="480" r="174" fill="none" stroke="#e8c2a2" stroke-width="1" stroke-dasharray="3 15" opacity=".5"/>
+  <path d="M0 830 Q250 760 490 825 T1200 785 V1200 H0Z" fill="#22283e"/>
+  <path d="M580 704 C680 772 822 857 1053 1016 L1105 1080 C850 1019 677 952 527 884Z" fill="#101629" opacity=".82"/>
+  <path d="M587 690 C518 772 463 849 402 932" fill="none" stroke="#d19b91" stroke-width="34" stroke-linecap="round" opacity=".55"/>
+  <g fill="none" stroke="url(#light)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M585 432 C555 483 540 544 564 600 L615 704" stroke-width="43"/>
+    <path d="M571 475 C504 442 445 385 407 333" stroke-width="28"/>
+    <path d="M584 486 C657 450 716 399 752 333" stroke-width="28"/>
+    <path d="M604 594 C544 621 474 634 420 608" stroke-width="31"/>
+    <path d="M604 594 C673 623 722 670 759 723" stroke-width="31"/>
+  </g>
+  <circle cx="585" cy="392" r="42" fill="#f1c78d"/>
+  <path d="M550 385 Q573 334 624 371" fill="none" stroke="#f1c78d" stroke-width="14" stroke-linecap="round"/>
+  <g fill="none" stroke="#ad9bb4" stroke-width="2" opacity=".45">
+    <path d="M150 974 Q350 920 525 974"/><path d="M143 1005 Q340 952 519 1005"/>
+    <path d="M780 830 Q920 804 1070 848"/><path d="M773 856 Q920 833 1080 878"/>
+  </g>
+  <g fill="#e4bd9c" opacity=".72">
+    <circle cx="250" cy="237" r="3"/><circle cx="855" cy="224" r="4"/><circle cx="980" cy="510" r="3"/>
+    <circle cx="308" cy="557" r="3"/><circle cx="812" cy="1010" r="4"/><circle cx="970" cy="693" r="2"/>
+  </g>
+  <rect x="62" y="62" width="1076" height="1076" rx="18" fill="none" stroke="#d8c1be" stroke-opacity=".34" stroke-width="2"/>
+  <text x="84" y="100" fill="#e5d7d4" font-family="Arial, sans-serif" font-size="24" letter-spacing="8">HINDIA  /  RUANG UNTUK BERDAMAI</text>
+  <text x="82" y="1005" fill="#f2e4d7" font-family="Georgia, serif" font-size="66" letter-spacing="1">MENARI DENGAN</text>
+  <text x="82" y="1080" fill="#f2e4d7" font-family="Georgia, serif" font-size="66" letter-spacing="1">BAYANGAN</text>
+  <text x="88" y="1120" fill="#bdadba" font-family="Arial, sans-serif" font-size="18" letter-spacing="6">GERAK KECIL DI TENGAH SUNYI</text>
+</svg>

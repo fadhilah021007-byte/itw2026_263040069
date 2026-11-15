@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Rumah ke Rumah — Hindia</title>
+  <desc id="desc">Ilustrasi orisinal rumah-rumah hangat yang terhubung oleh jalan berkelok di bawah langit senja.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#f8c58a"/>
+      <stop offset=".58" stop-color="#d87869"/>
+      <stop offset="1" stop-color="#634e68"/>
+    </linearGradient>
+    <linearGradient id="road" x2="0" y2="1">
+      <stop stop-color="#f1c89b"/>
+      <stop offset="1" stop-color="#b48176"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#sky)"/>
+  <circle cx="876" cy="275" r="118" fill="#ffe5ae" opacity=".8"/>
+  <ellipse cx="876" cy="275" rx="190" ry="155" fill="#ffe5ae" opacity=".2" filter="url(#soft)"/>
+  <path d="M0 620 Q210 530 390 635 T780 600 T1200 570 V1200 H0Z" fill="#79606c"/>
+  <path d="M0 760 Q200 650 440 760 T900 705 T1200 690 V1200 H0Z" fill="#514b60"/>
+  <path d="M548 1200 C590 1030 735 985 672 875 C620 785 480 809 515 706 C547 613 705 597 735 520" fill="none" stroke="url(#road)" stroke-width="92" stroke-linecap="round"/>
+  <path d="M548 1200 C590 1030 735 985 672 875 C620 785 480 809 515 706 C547 613 705 597 735 520" fill="none" stroke="#ffe2b4" stroke-width="4" stroke-dasharray="14 24" opacity=".65"/>
+  <g>
+    <path d="M113 696 220 602 327 696V855H113Z" fill="#e8aa78"/>
+    <path d="M93 700 220 586 347 700 331 716 220 617 109 716Z" fill="#704f59"/>
+    <rect x="143" y="732" width="44" height="54" rx="3" fill="#ffe5a7"/>
+    <rect x="247" y="732" width="44" height="54" rx="3" fill="#ffe5a7"/>
+    <rect x="199" y="773" width="43" height="82" fill="#76545a"/>
+  </g>
+  <g>
+    <path d="M785 651 887 560 989 651V803H785Z" fill="#d58a70"/>
+    <path d="M766 655 887 545 1008 655 992 671 887 576 782 671Z" fill="#59495d"/>
+    <rect x="815" y="689" width="41" height="49" rx="3" fill="#ffe0a0"/>
+    <rect x="917" y="689" width="41" height="49" rx="3" fill="#ffe0a0"/>
+    <rect x="867" y="727" width="40" height="76" fill="#624b58"/>
+  </g>
+  <g>
+    <path d="M934 825 1019 750 1104 825V953H934Z" fill="#e9b27b"/>
+    <path d="M917 829 1019 735 1121 829 1106 843 1019 766 932 843Z" fill="#65505f"/>
+    <rect x="959" y="855" width="35" height="40" fill="#ffe4a8"/>
+    <rect x="1041" y="855" width="35" height="40" fill="#ffe4a8"/>
+  </g>
+  <g fill="#fbe8c7" opacity=".8">
+    <circle cx="410" cy="400" r="3"/><circle cx="510" cy="310" r="4"/><circle cx="680" cy="420" r="3"/>
+    <circle cx="1040" cy="410" r="4"/><circle cx="310" cy="510" r="3"/><circle cx="765" cy="190" r="3"/>
+  </g>
+  <rect x="62" y="62" width="1076" height="1076" rx="18" fill="none" stroke="#ffe9cc" stroke-opacity=".38" stroke-width="2"/>
+  <text x="84" y="100" fill="#fff0d6" font-family="Georgia, serif" font-size="24" letter-spacing="8">HINDIA  /  KISAH YANG MENEMUKAN JALAN PULANG</text>
+  <text x="82" y="1010" fill="#fff2dc" font-family="Georgia, serif" font-size="84" letter-spacing="2">RUMAH KE RUMAH</text>
+  <text x="88" y="1062" fill="#f5d6bd" font-family="Arial, sans-serif" font-size="22" letter-spacing="7">SEBUAH PERJALANAN KECIL ANTAR HATI</text>
+</svg>

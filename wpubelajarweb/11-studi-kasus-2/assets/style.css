@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+html{
+    background-color: #1b1b1b;
+}
+
+header{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #1b1b1b;
+    color: white;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+header h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.5em;
+    margin-bottom: 15px ;
+}
+
+header .genre-tags {
+    margin-top: 10px;
+}
+
+
+header .genre-tags .tag{
+    display: inline-block;
+    background-color: #60b6d4;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 16px;
+    margin: 0 5px;
+    border-radius: 20px;
+    font-size: 0.9em ;
+}
+
+
+main {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+main .profile-card{
+    background-color: white;
+    padding: 40px;
+    margin: 30px 0;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgb(0 0 0 /0.1);
+    text-align: center;
+}
+
+main .profile-card .gambar-artis {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #60b6d4;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+
+main .profile-card .bio {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+
+
+main .profile-card .bio p {
+    margin-top: 15px;
+}
+
+
+main .profile-card .stats{
+    margin-top: 30px;
+}
+
+main .profile-card .stats .stat-item{
+    display: inline-block;
+    width: 150px;
+    padding:20px;
+    background-color: #f9f8f8;
+    border-radius: 8px;
+    border: 2px solid #65bcdb;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+main .profile-card .stats .stat-item .stat-value{
+    font-size: 2em;
+    font-weight: bold;
+    color:#60b6d4 ;
+}
+
+main .profile-card .stats .stat-item .stat-label {
+    font-size: 0.9em;
+    color: #666;
+}
+
+main .discography {
+    margin: 50px 0;
+
+}
+
+main .discography h2 {
+     font-family: Georgia, "Times New Roman", serif;
+     text-align: center;
+     font-size: 2em;
+     margin-bottom: 30px;
+}
+
+main .social-links h2 {
+     font-family: "Trebuchet MS", Arial, sans-serif;
+     text-align: center;
+     font-size: 2em;
+     margin-bottom: 30px;
+}
+
+main .discography .album-list {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+main .discography .album-list .album-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(0 0 0 /0.1);
+    text-align: center;
+}
+
+main .discography .album-list .album-card img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+main .discography .album-list .album-card h3{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    min-height: 2.4em;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+ main .discography .album-list .album-card p{
+     font-family: Verdana, Geneva, sans-serif;
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 15px ;
+ }
+
+ main .discography .album-list.album-card .btn-listen{
+    display: inline-block;
+    background-color: #60b6d4;
+    color: white;
+    padding: 8px 20px;
+    font-size: 0.9em;
+    text-decoration: none;
+ }
+
+ main .discography .album-list .album-card .btn-listen:hover{
+    background-color: #008dc0;
+ }
+
+
+
+ main .social-links{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f8f8;
+    border-radius: 12px;
+    margin: 30px 0px;
+    font-family: "Courier New", Courier, monospace;
+ }
+
+
+ main .social-links .social-btn {
+    display: inline-block;
+    color: white;
+    padding: 12px 30px;
+    background-color: #1b1b1b;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+ }
+
+main .social-links .social-btn:hover{
+    background-color: #333;
+}
+
+
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: #1b1b1b;
+    color: white;
+    margin-top: 50px;
+    font-family: Georgia, "Times New Roman", serif;
+
+}
+
+
+footer p {
+    margin-top: 10px;
+     color: #60b6d4;
+     text-decoration:none;
+     font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}

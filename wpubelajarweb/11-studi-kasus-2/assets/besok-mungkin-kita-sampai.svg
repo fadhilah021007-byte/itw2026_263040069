@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Besok Mungkin Kita Sampai — Hindia</title>
+  <desc id="desc">Jalan panjang menembus perbukitan menuju cahaya pagi, sebagai gambaran harapan dan perjalanan.</desc>
+  <defs>
+    <linearGradient id="morning" x2="0" y2="1">
+      <stop stop-color="#283d59"/>
+      <stop offset=".52" stop-color="#8294a0"/>
+      <stop offset=".82" stop-color="#edbb8f"/>
+      <stop offset="1" stop-color="#f7dbad"/>
+    </linearGradient>
+    <linearGradient id="sunrise" x2="0" y2="1">
+      <stop stop-color="#fff0c1" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#f0b987" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="highway" x2="1" y2="0">
+      <stop stop-color="#30384a"/>
+      <stop offset=".5" stop-color="#515765"/>
+      <stop offset="1" stop-color="#30384a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#morning)"/>
+  <circle cx="606" cy="570" r="195" fill="url(#sunrise)"/>
+  <circle cx="606" cy="570" r="64" fill="#fff0c4" opacity=".94"/>
+  <path d="M0 650 166 546 277 603 441 485 563 571 716 462 856 568 1014 491 1200 596V858H0Z" fill="#55667a" opacity=".9"/>
+  <path d="M0 705 172 625 321 681 488 566 634 672 783 551 918 666 1086 575 1200 637V903H0Z" fill="#394a61"/>
+  <path d="M0 769 Q235 686 434 757 T825 727 T1200 730 V1200 H0Z" fill="#26394d"/>
+  <path d="M394 1200 C451 1053 480 941 530 831 C563 758 584 700 598 649 L614 649 C632 704 656 764 690 831 C752 953 803 1070 856 1200Z" fill="url(#highway)"/>
+  <path d="M600 1200 C597 1050 598 914 601 824 C603 756 604 701 605 650" fill="none" stroke="#f6ddb0" stroke-width="8" stroke-dasharray="28 29" opacity=".85"/>
+  <path d="M385 1200 C443 1052 476 936 529 828" fill="none" stroke="#91a2ae" stroke-width="4" opacity=".55"/>
+  <path d="M865 1200 C808 1052 766 938 690 828" fill="none" stroke="#91a2ae" stroke-width="4" opacity=".55"/>
+  <g fill="#1e2d40">
+    <path d="M190 793 215 724 240 793Z"/><path d="M160 812 191 727 221 812Z"/>
+    <path d="M1000 762 1027 684 1055 762Z"/><path d="M1036 786 1070 687 1104 786Z"/>
+    <path d="M92 890 120 811 148 890Z"/><path d="M1080 877 1104 809 1128 877Z"/>
+  </g>
+  <path d="M0 622 Q300 596 520 629 T1200 614" fill="none" stroke="#ffe7bd" stroke-width="2" opacity=".45"/>
+  <g fill="#fff1d2" opacity=".75">
+    <circle cx="192" cy="288" r="3"/><circle cx="338" cy="202" r="2"/><circle cx="876" cy="243" r="3"/>
+    <circle cx="1018" cy="349" r="2"/><circle cx="748" cy="147" r="2"/>
+  </g>
+  <rect x="62" y="62" width="1076" height="1076" rx="18" fill="none" stroke="#f8e6ca" stroke-opacity=".4" stroke-width="2"/>
+  <text x="84" y="100" fill="#f8edda" font-family="Arial, sans-serif" font-size="24" letter-spacing="8">HINDIA  /  PERJALANAN MENUJU PAGI</text>
+  <text x="82" y="1002" fill="#fff1d8" font-family="Georgia, serif" font-size="63" letter-spacing="1">BESOK MUNGKIN</text>
+  <text x="82" y="1075" fill="#fff1d8" font-family="Georgia, serif" font-size="63" letter-spacing="1">KITA SAMPAI</text>
+  <text x="88" y="1120" fill="#e8d5c1" font-family="Arial, sans-serif" font-size="18" letter-spacing="6">SELALU ADA CAHAYA DI DEPAN</text>
+</svg>
